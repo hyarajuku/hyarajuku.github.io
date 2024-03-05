@@ -1,13 +1,19 @@
 body {
 	font-family: Ms Gothic;
-	
+	margin: 0;
+	background-color: #463947;
+	align-content: center;
+	max-width: 1200px;
+	box-sizing: border-box;
+
 }
+
 ul {
 	list-style-type:none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #58585850;
+	background-color: #fff;
 }
 
 li {
