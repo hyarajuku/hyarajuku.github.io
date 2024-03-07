@@ -11,15 +11,15 @@ body {
 
 ul {
 	list-style-type: none;
-	max-width:auto;
+	max-width: auto;
 	margin: auto;
 	padding: 8px;
-	overflow: hidden;
-	border:#ffffff 2px solid;
+	border:#ffffff 1px solid;
+	font-size: 20px;
 }
 
 a:link {
-	color: #ffffff;
+	color: #807088;
 	text-decoration: none;
 }
 
@@ -34,7 +34,12 @@ a:hover {
 }
 
 a:active {
-	color: #807088;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a {
+	color: #ffffff;
 	text-decoration: none;
 }
 	
