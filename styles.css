@@ -1,37 +1,40 @@
 body {
 	font-family: Ms Gothic;
+	text-align: center;
 	color:#ffffff;
 	margin: auto;
+	max-width: 800px;
+	max-height: 800px;
+	padding: 40px;
 	background-color: #000000;
-	border: white 2px solid;
-	width: 800px;
-	height: 600px;
-	padding: 80px;
-
-
 }
 
 ul {
-	list-style-type:none;
-	margin: 0;
-	padding: 0;
+	list-style-type: none;
+	max-width:auto;
+	margin: auto;
+	padding: 8px;
 	overflow: hidden;
-	border:#ffffff 2px solid
+	border:#ffffff 2px solid;
 }
 
 a:link {
-	color: #ffffff
+	color: #ffffff;
+	text-decoration: none;
 }
 
 a:visited {
 	color: #9c91a1;
+	text-decoration: none;
 }
 
 a:hover {
 	color: #DAB2C5;
+	text-decoration: underline;
 }
 
 a:active {
 	color: #9c91a1;
+	text-decoration: none;
 }
 	
