@@ -14,8 +14,15 @@ ul {
 	max-width: auto;
 	margin: auto;
 	padding: 8px;
-	border:#ffffff 1px solid;
+	border: #ffffff 1px solid;
 	font-size: 20px;
+	word-spacing: 55px;
+}
+
+.dropdown {
+	display: none;
+	
+	
 }
 
 a:link {
