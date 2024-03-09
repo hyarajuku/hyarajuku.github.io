@@ -1,5 +1,6 @@
 body {
 	font-family: Ms Gothic;
+	font-size: 20px;
 	text-align: center;
 	color:#ffffff;
 	margin: auto;
@@ -11,12 +12,12 @@ body {
 
 ul {
 	list-style-type: none;
-	max-width: auto;
+	max-width: 600px;
 	margin: auto;
 	padding: 8px;
 	border: #ffffff 1px solid;
-	font-size: 20px;
-	word-spacing: 55px;
+	font-size: 18px;
+	word-spacing: 30px;
 }
 
 a:link {
