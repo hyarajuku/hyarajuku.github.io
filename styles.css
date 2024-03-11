@@ -3,21 +3,24 @@ body {
 	font-size: 20px;
 	text-align: center;
 	color:#ffffff;
+	border: white 1px solid;
 	margin: auto;
 	max-width: 800px;
 	max-height: 800px;
 	padding: 40px;
 	background-color: #000000;
+
+	
 }
 
 ul {
 	list-style-type: none;
-	max-width: 600px;
+	max-width: 625px;
 	margin: auto;
-	padding: 8px;
+	padding: 6px;
 	border: #ffffff 1px solid;
-	font-size: 18px;
-	word-spacing: 30px;
+	font-size: 22px;
+	word-spacing: 40px;
 }
 
 a:link {
@@ -41,11 +44,12 @@ a:active {
 }
 
 .dropbtn {
+	
 	background: none;
 	color: #807088;
 	padding: auto;
 	font-family: Ms Gothic;
-	font-size: 20px;
+	font-size: 22px;
 	border: none;
   }
   
@@ -57,23 +61,22 @@ a:active {
   .dropdown-content {
 	display: none;
 	position: absolute;
-	background: none;
-	border: white 2px solid;
-	min-width: 120px;
+	border: white 1px solid;
+	min-width: 90px;
+	font-size: 18px;
 
   }
   .dropdown-content a {
 	background-color: #ffffff30;
 	color: #DAB2C5;
-	padding: 8px 10px;
+	padding: 7px;
 	text-decoration: none;
-	display: block;
+	display:block;
   }
   
-  .dropdown-content a:hover {background-color: #80708885;}
+  .dropdown-content a:hover {background-color: #80708880; text-decoration: underline;}
 
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {color:#DAB2C5;
-				text-decoration: underline;}
+  .dropdown:hover .dropbtn {color:#DAB2C5;}
 	
