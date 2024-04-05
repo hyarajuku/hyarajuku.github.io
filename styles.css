@@ -81,6 +81,7 @@ a:active {
 
   .writtenlogo {
 	img {
-		width: 75%;
+		width: 50%;
+		position: relative;
 	}
 }
