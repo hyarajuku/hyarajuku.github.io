@@ -12,6 +12,12 @@ body {
 
 	
 }
+.writtenlogo {
+	img {
+		width: 50%;
+		position: center;
+	}
+}
 ul {
 	list-style-type: none;
 	max-width: 625px;
@@ -78,10 +84,3 @@ a:active {
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {color:#DAB2C5;}
-
-  .writtenlogo {
-	img {
-		width: 50%;
-		position: relative;
-	}
-}
