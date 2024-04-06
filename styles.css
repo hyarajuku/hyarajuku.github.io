@@ -5,18 +5,27 @@ body {
 	color:#ffffff;
 	border: white 1px solid;
 	margin: auto;
-	max-width: 800px;
-	max-height: 800px;
-	padding: 40px;
+	max-width: 1200px;
+	max-height: 1200px;
 	background-color: #000000;
-
-	
-}
-.writtenlogo {
 	img {
-		width: 50%;
-		position: center;
+		padding-top: 20px;
+		padding-bottom: 10px;
+		width: 30%;
 	}
+}
+
+::-webkit-scrollbar {
+	width: 15px;
+}
+::-webkit-scrollbar-thumb {
+	background: #807088;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #706376;
+}
+::-webkit-scrollbar-track {
+	background: #000000;
 }
 ul {
 	list-style-type: none;
