@@ -17,9 +17,11 @@ body {
 }
 
 ::-webkit-scrollbar {
-	width: 15px;
+	width: 14px;
 }
 ::-webkit-scrollbar-thumb {
+	border: 1px solid white;
+	border-right: none;
 	background: #807088;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -28,6 +30,7 @@ body {
 ::-webkit-scrollbar-track {
 	background: #000000;
 }
+
 ul {
 	list-style-type: none;
 	max-width: 625px;
@@ -99,18 +102,8 @@ a:active {
   .instagram {
 	border: solid 1px white;
 	background-color: white;
-	max-width: 700px;
+	max-width: 1200px;
 	margin: auto;
-  }
-
-.row {
-	overflow: scroll;
-}
-
-  /* Header/Blog Title */
-  .header {
-	font-size: 30px;
-	text-align: center;
   }
   
   /* Create two unequal columns that floats next to each other */
@@ -118,46 +111,49 @@ a:active {
   .leftcolumn {
 	float: right;
 	width: 70%;
+	padding-right: 20px;
   }
   
   /* Right column */
   .rightcolumn {
 	float: left;
 	width: 25%;
+	padding-left: 20px;
+	font-size: 15px;
   }
   
+.blogtext {
+	font-size: 16px;
+	margin: 20px;
+	overflow: auto;
+}
+
   /* Fake image */
   .fakeimg {
 	background-color: #aaa;
-	padding: 20px;
+	padding: 10px;
   }
   
   /* Add a card effect for articles */
   .card {
-	background-color: #DAB2C520;
-	padding: 4px;
-	margin-top: 20px;
+	border: 1px solid white;
+	margin: 20px;
+	padding: 10px;
+	max-height: 500px;
+	overflow: auto;
   }
   
+  .row {
+	max-height: 700px;
+	overflow: auto;
+	margin-top: 20px;
+	border: 1px solid white;
+
+  }
+
   /* Clear floats after the columns */
   .row:after {
 	content: "";
 	display: table;
 	clear: both;
-  }
-  
-  /* Footer */
-  .footer {
-	padding: 20px;
-	text-align: center;
-	background: #ddd;
-	margin-top: 20px;
-  }
-  
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 800px) {
-	.leftcolumn, .rightcolumn {
-	  width: 100%;
-	  padding: 0;
-	}
   }
