@@ -99,10 +99,16 @@ a:active {
   
   .dropdown:hover .dropbtn {color:#DAB2C5;}
 
+  .container {
+	border: 1px solid white;
+	max-width: 500px;
+	max-height: 500px;
+  }
+
   .instagram {
 	border: solid 1px white;
 	background-color: white;
-	max-width: 1200px;
+	max-width: 575px;
 	margin: auto;
   }
   
