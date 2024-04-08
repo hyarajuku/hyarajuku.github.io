@@ -143,6 +143,11 @@ a:active {
 	text-align: left;
 }
 
+#faqtext {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
   /* Fake image */
   .fakeimg {
 	background-color: #aaa;
