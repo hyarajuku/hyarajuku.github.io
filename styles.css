@@ -7,7 +7,7 @@ body {
 	border: white 1px solid;
 	margin: auto;
 	max-width: 60em;
-	max-height: `00em;
+	max-height: 100em;
 	padding: 5em;
 	margin-top: 0.5em;
 	overflow: auto;
