@@ -6,7 +6,7 @@ body {
 	color:#ffffff;
 	border: white 1px solid;
 	margin: auto;
-	max-width: 40em;
+	max-width: 60em;
 	max-height: 60em;
 	padding: 5em;
 	margin-top: 0.5em;
@@ -28,10 +28,10 @@ body {
 ::-webkit-scrollbar-thumb {
 	border: 1px solid white;
 	border-right: none;
-	background: #807088;
+	background: #837889;
 }
 ::-webkit-scrollbar-thumb:hover {
-	background: #706376;
+	background: #837889;
 }
 ::-webkit-scrollbar-track {
 	background: #000000;
@@ -48,17 +48,17 @@ ul {
 }
 
 a:link {
-	color: #807088;
+	color: #837889;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #807088;
+	color: #A68793;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #DAB2C5;
+	color: #F9D8E9;
 	text-decoration: underline;
 }
 
@@ -70,7 +70,7 @@ a:active {
 .dropbtn {
 	
 	background: none;
-	color: #807088;
+	color: #837889;
 	padding: auto;
 	font-family: Ms Gothic;
 	font-size: 22px;
@@ -93,17 +93,17 @@ a:active {
   }
   .dropdown-content a {
 	background-color: #ffffff30;
-	color: #DAB2C5;
+	color: #F9D8E9;
 	padding: 0.35em;
 	text-decoration: none;
 	display:block;
   }
   
-  .dropdown-content a:hover {background-color: #80708880; text-decoration: underline;}
+  .dropdown-content a:hover {background-color: #83788990; text-decoration: underline;}
 
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {color:#DAB2C5;}
+  .dropdown:hover .dropbtn {color:#F9D8E9;}
 
 
   #indexcard {
