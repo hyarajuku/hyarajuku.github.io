@@ -5,13 +5,16 @@ body {
 	text-align: center;
 	color:#ffffff;
 	border: white 1px solid;
+	display: flex;
+	flex-direction: column;
 	margin: auto;
 	max-width: 60em;
-	max-height: 100em;
+	max-height: 150vh;
 	padding: 5em;
 	margin-top: 1em;
 	margin-bottom: 1em;
-	overflow: auto;
+	flex: 1;
+	overflow: scroll;
 	img {
 		padding-bottom: 1.5em;
 		width: 15em;
