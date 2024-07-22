@@ -8,7 +8,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin: auto;
-	max-width: 60em;
+	max-width: 50em;
 	max-height: 150vh;
 	padding: 5em;
 	margin-top: 1em;
