@@ -178,3 +178,43 @@ a:active {
 	display: table;
 	clear: both;
   }
+
+  button {
+	font-family: Ms Gothic;
+	background: none;
+	color: #837889;
+	padding: auto;
+	font-size: 20px;
+	border: none;
+}
+
+button:hover {
+	color: #F9D8E9;
+	text-decoration: underline;
+}
+
+.thumbnail {
+	display: inline-block;
+	width: 800px;
+	height: 110px;
+	overflow: hidden;
+}
+
+.thumbnail img {
+	width: 400px;
+	height: 400px;
+	margin: -110px;
+}
+
+.overlay {
+	position: absolute;
+	width: 10%;
+	height: 10%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #83788960;
+  }
+  
+  .thumbnail:hover .overlay {
+	opacity: 1;
+  }
