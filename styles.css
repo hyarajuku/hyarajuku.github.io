@@ -183,7 +183,9 @@ a:active {
 	font-family: Ms Gothic;
 	background: none;
 	color: #837889;
+	height: 1px;
 	padding: auto;
+	margin: auto;
 	font-size: 20px;
 	border: none;
 }
