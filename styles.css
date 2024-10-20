@@ -210,8 +210,6 @@ button:hover {
 
 .overlay {
 	position: absolute;
-	width: 10%;
-	height: 10%;
 	opacity: 0;
 	transition: .5s ease;
 	background-color: #83788960;
@@ -219,4 +217,10 @@ button:hover {
   
   .thumbnail:hover .overlay {
 	opacity: 1;
+  }
+
+  .thumbnailtext {
+	font-size: 30px;
+	color: #F9D8E9;
+	padding-top: 40px;
   }
